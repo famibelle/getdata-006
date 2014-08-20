@@ -1,7 +1,7 @@
 getdata-006
 ===========
 
-Getting and Cleaning Data Course Project
+# Getting and Cleaning Data Course Project
 Describing how the script works
 
 the run_analysis.R script runs as follow to clean the data and create the tidy data.
