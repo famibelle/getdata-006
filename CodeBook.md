@@ -12,12 +12,12 @@ identifies the subject who performed the activity for each window sample. Its ra
 
 *Activity*
 identifies the activity type. 6 possibles value
-WALKING
-WALKING_UPSTAIRS
-WALKING_DOWNSTAIRS
-SITTING
-STANDING
-LAYING
+ 1. WALKING
+ 1. WALKING_UPSTAIRS
+ 1. WALKING_DOWNSTAIRS
+ 1. SITTING
+ 1. STANDING
+ 1. LAYING
 
 66 other variables  
 
