@@ -34,9 +34,9 @@ run_analysis <- function(directory = "UCIHARDataset") {
 
 
 # 	2/ Extracts only the measurements on the mean and standard deviation for each measurement.  
-	MeanIndices <- grep("mean\\(\\)",Features$V2) ## Extract column indices with character string == "mean()"
+	MeanIndices <- grep("mean()",Features$V2, fixed=TRUE) ## Extract column indices with character string == "mean()"
 	MeanIndices <- MeanIndices + 2 ## offset by 2 to match the subjet and activity names
-	STDIndices <- grep("std\\(\\)",Features$V2) ## Extract column indices with character string == "std()"
+	STDIndices <- grep("std()",Features$V2, fixed=TRUE) ## Extract column indices with character string == "std()"
 	STDIndices <- STDIndices + 2 ## offset by 2 to match the subjet and activity names
 	MergedData_MeanSTD <- cbind(MergedData[,1:2], MergedData[,MeanIndices], MergedData[,STDIndices])
 	
