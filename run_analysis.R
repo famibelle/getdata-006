@@ -45,8 +45,10 @@ run_analysis <- function(directory = "UCIHARDataset") {
 	MergedData_MeanSTD[,2] <- Activity_labels[ MergedData_MeanSTD[,2], 2]
 
 # 	4/ Appropriately labels the data set with descriptive variable names. 
+	MeanIndices <- MeanIndices - 2 	## erase the offset by 2 
+	STDIndices <- STDIndices - 2 	## erase the offset by 2 
 
-	MergedData_ColNames <- c("Subject", "Activity", as.vector(Features$V2[MeanIndices]), as.vector(Features$V2[MeanIndices]))
+	MergedData_ColNames <- c("Subject", "Activity", as.vector(Features$V2[MeanIndices]), as.vector(Features$V2[STDIndices]))
 	
 	names(MergedData_MeanSTD) <- MergedData_ColNames
 	write.table(MergedData_MeanSTD, "MergedData_MeanSTD.txt", row.name=FALSE)
