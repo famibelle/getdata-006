@@ -11,9 +11,8 @@ http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartpho
 identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
 | Subject | id |
 |------------|----|
-| Subbject 1 | 1 |
+| Subbjet 1 | 1 |
 | Subject 2 | 2 |
-| Subject 3 | 3 |
 | Subject 3 | 3 |
 | Subject ... | ... |
 | Subject 29 | 29 |
