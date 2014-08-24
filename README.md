@@ -26,5 +26,5 @@ the run_analysis.R script runs as follow to clean the data and create the tidy d
 + not requested in the project, but still usefull create a "MergedData_MeanSTD.txt" text file with all the data
 
 ### 	5/ Creates a second, independent tidy data set with the average of each variable for each activity and each subject. 
-+ return the result and write to a file to "tidydataset.txt" file in current working directory.
++ return the result and write to a file named "tidydataset.txt" in current working directory.
 + that's it
