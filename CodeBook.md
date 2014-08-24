@@ -8,7 +8,8 @@ A full description is available at the site where the data was obtained:
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 **Subject**
-identifies the subject who performed the activity for each window sample. Its range is from 1 to 30. 
+identifies the subject who performed the activity for each window sample. Its range is from 1 to 30.
+
 | Subject | id |
 |------------|----|
 | Subbjet 1 | 1 |
