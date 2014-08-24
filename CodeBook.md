@@ -12,7 +12,7 @@ identifies the subject who performed the activity for each window sample. Its ra
 
 | Subject | id |
 |------------|----|
-| Subbjet 1 | 1 |
+| Subjet 1 | 1 |
 | Subject 2 | 2 |
 | Subject 3 | 3 |
 | Subject ... | ... |
@@ -21,15 +21,17 @@ identifies the subject who performed the activity for each window sample. Its ra
 
 **Activity**
 identifies the activity type. 6 possibles value
+```
  1. WALKING
  1. WALKING_UPSTAIRS
  1. WALKING_DOWNSTAIRS
  1. SITTING
  1. STANDING
  1. LAYING
+```
 
 **33 Mean values (mean())and 33 Standard deviations (std())** coming from the Samsung Galaxy S II subjets embedded accelerometer and gyroscope, that give the 3-axial linear acceleration and 3-axial angular velocity accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. The acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ). The body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag). A Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
-
+```
  1. tBodyAcc-mean()-Z 
  1. tBodyAcc-std()-X 
  1. tBodyAcc-std()-Y 
@@ -96,3 +98,4 @@ identifies the activity type. 6 possibles value
  1. fBodyBodyAccJerkMag-mad() 
  1. fBodyBodyGyroMag-mad() 
  1. fBodyBodyGyroJerkMag-mad()
+```
